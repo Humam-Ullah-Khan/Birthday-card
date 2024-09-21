@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Birthday Card</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="page" id="page1">
+        <div class="content">
+            <h1>Happy Birthday Taiba! 🎉</h1>
+            <button onclick="nextPage(2)">Next Page</button>
+        </div>
+    </div>
+
+    <div class="page" id="page2" style="display: none;">
+        <div class="content">
+            <h1>🎂 Enjoy your special day!</h1>
+            <img src="./cake.avif" alt="Birthday Cake">
+            <p>May your day be as sweet as this cake!</p>
+            <button onclick="nextPage(3)">Next Page</button>
+        </div>
+    </div>
+
+    <div class="page" id="page3" style="display: none;">
+        <div class="content">
+            <h1>🎈 Sending lots of love and good wishes!</h1>
+            <img src="./Name birthday.jpeg" alt="Balloons">
+            <p>Wishing you a fantastic year ahead!</p>
+            <button onclick="nextPage(4)">Next Page</button>
+        </div>
+    </div>
+
+    <div class="page" id="page4" style="display: none;">
+        <div class="content">
+            <h1>🎁 You are a gift to everyone!</h1>
+            <p>May all your dreams come true this year.</p>
+            <p style="color:crimson;">Ami Tomake valobashi💖🥂🍹</p>
+            <button onclick="nextPage(1)">Start Over</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
